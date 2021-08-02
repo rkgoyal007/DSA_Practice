@@ -33,7 +33,7 @@ int main()
     int n = sizeof(arr) / sizeof(arr[0]);
  
     // Function calling
-    leftRotate(arr, 2, n);
+    leftRotate(arr,2, n);
     printArray(arr, n);
  
     return 0;
