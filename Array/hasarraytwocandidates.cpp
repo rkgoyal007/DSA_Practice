@@ -7,8 +7,7 @@ using namespace std;
 
 // Function to check if array has 2 elements
 // whose sum is equal to the given value
-bool hasArrayTwoCandidates(int A[], int arr_size,
-						int sum)
+bool hasArrayTwoCandidates(int A[], int arr_size,int sum)
 {
 	int l, r;
 

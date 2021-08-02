@@ -1,4 +1,4 @@
-// C++ code to find the  every segment size of
+// C++ code to find the  every segment size of 3
 // array have a search key x
 #include <bits/stdc++.h>
 using namespace std;
