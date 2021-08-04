@@ -65,8 +65,6 @@ insertAfterNode(struct Node *head,struct Node* prevNode,int data)
     struct Node* p=head;
     ptr->next=prevNode->next;
     prevNode->next=ptr;
-
-
     return head;
 }
 
