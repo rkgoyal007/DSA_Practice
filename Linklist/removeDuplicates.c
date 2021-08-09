@@ -29,7 +29,6 @@ prev->next=temp->next;
 return head;
 }
 
-
 int main(){
     struct Node* head;
     struct Node* second;
@@ -41,7 +40,7 @@ int main(){
     third = (struct Node*)malloc(sizeof(struct Node));
 
     //link first and second node
-    head->data=7;
+    head->data=8;
     head->next=second;
 
     //linl second and third node

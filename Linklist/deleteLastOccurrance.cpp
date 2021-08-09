@@ -1,4 +1,4 @@
-//program to delete last occurance of a item of given key
+/*program to delete last occurance of a item of given key*/
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
@@ -21,11 +21,11 @@ void deleteLast(struct Node** head, int x)
 			}
 			head = &(*head)->next;
 	}
-	if (tmp1)
+	if (temp1)
 	{
-		struct Node* tmp = *tmp1;
-		*tmp1 = tmp->next;
-		free(tmp);
+		struct Node* temp = *temp1;
+		*temp1 = temp->next;
+		free(temp);
 	}
 }
 

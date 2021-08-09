@@ -32,6 +32,17 @@ void push(Node** head_ref, int new_data)
 	(*head_ref) = new_node;
 }
 
+void printlist(Node *head_ref)
+{
+    Node* temp=head_ref;
+    while(temp!=NULL)
+    {
+        cout<<temp->data<<" ";
+        temp=temp->next;
+    }
+    cout<<endl;
+}
+
 int main()
 {
 	Node* head = NULL;
@@ -42,10 +53,12 @@ int main()
 	push(&head, 12);
 	push(&head, 1);
 
-	cout << "Deleting linked list";
+	cout << "Deleting linked list"<<" ";
+	printlist(head);
 	deleteList(&head);
 
 	cout << "\nLinked list deleted";
+	printlist(head);
     return 0;
 }
 
